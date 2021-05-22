@@ -1,0 +1,35 @@
+//-------------------------------
+//modules variables
+//----------------------------
+
+
+
+//------------------------------
+// module specifications
+//-------------------------------------------------
+
+//CONTAINER-------------------------------
+@each $size, $values in $screen-sizes {
+    @media screen  and (min-width:map-get($values, 'breakpoint') ){
+        .container {
+            width:100% ;
+            max-width: map-get($values, 'container-size');
+            margin: auto;
+        }    }
+        
+    }
+
+
+.border-box{
+    padding:10px;
+    border:solid 2px #eeeeee;
+    margin-bottom:20px;
+}
+
+.block-code code{
+    display:block;
+    background-color:#eeeeee;
+    line-height:1.7rem;
+    border:solid 2px #e4e3e3;
+    
+}

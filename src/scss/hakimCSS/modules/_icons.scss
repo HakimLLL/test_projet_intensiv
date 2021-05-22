@@ -1,0 +1,61 @@
+//----------------------------------
+// modules variables
+$width-icon:1em;
+$height-icon:1em;
+$border-icon-radius:50%;
+$padding-icon: 10px;
+$border-icon: solid $color-3 0.5px;
+
+
+//----------------------------------
+.icon{
+    display:inline-block;  
+    
+}
+i.fab{
+    margin-right: 10px;
+    padding: 4.1px;
+    &.fa-facebook-f{ 
+        padding: 3px 5.5px 3px 5.5px;
+    }
+    &.fa-instagram{
+        padding: 3px 4px 3px 4px;
+
+    }
+
+ }
+
+ .circle ul li i.fab{
+    margin-right: 8px;
+    padding: 3px;
+    border:solid #e4e3e3 0.1rem;
+    border-radius: 50%;
+    text-align: center;
+    &:hover{
+        border-color:$link-hover-border-color;
+    }
+    
+    &.fa-facebook-f{ 
+        padding: 3px 5.5px 3px 5.5px;
+        border:solid #e4e3e3 0.1rem;
+        border-radius: 50%;
+        &:hover{
+            border-color:$link-hover-border-color;
+
+    }
+}
+    &.fa-instagram{
+        padding: 3px 4px 3px 4px;
+        border:solid #e4e3e3 0.1rem;
+        border-radius: 50%;
+        &:hover{
+            border-color:$link-hover-border-color;
+        }
+    }
+    }
+
+
+
+
+
+

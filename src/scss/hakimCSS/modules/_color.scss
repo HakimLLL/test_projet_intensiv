@@ -1,0 +1,41 @@
+//--------------------------
+//modules variable
+//----------------------
+
+$color-1:#18BFEF;
+$color-2:#f6f6f6;
+$color-3:#717981;
+$color-4:#4e403D;
+$color-text:#212931;
+
+$color-block-dim: 100px;
+
+
+
+
+//-------------------------------
+// module specifications
+//-------------------------------
+
+.color-block{
+
+    width: $color-block-dim ;
+    height: $color-block-dim;
+    display: inline-block; // pour qu'ils se mettent à coté
+    
+    &.color-1{
+        background: $color-1;
+    }
+    &.color-2{
+        background: $color-2;
+    }
+    &.color-3{
+        background: $color-3;
+    }
+    &.color-4{
+        background: $color-4;
+    }
+    &.color-text{
+        background: $color-text;
+    }
+}

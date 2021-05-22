@@ -1,0 +1,121 @@
+// ./modules/button
+
+// -------------------------------------------------------------------
+// BUTTON VARIBALES
+// -------------------------------------------------------------------
+
+// BTN
+$display-btn: inline-block;
+$font-size-btn: 0.9rem;
+$font-weight-btn: 900;
+$font-family-btn: $font-2;
+$letter-spacing-btn: 0.08rem;
+$text-decoration-btn: none;
+$padding-btn: 0.9rem 2rem;
+$text-transform-btn: uppercase;
+$background-btn: $color-text;
+$color-btn:#fff;
+$border-btn: 3px solid $color-text;
+$margin-right-btn: 1.5rem;
+$margin-bottom-btn: 1.5rem;
+
+$color-btn-hover: #fff;
+$background-btn-hover: $color-1;
+$border-btn-hover: 3px solid $color-1;
+
+// BTN SMALL
+
+$padding-btn-small: 0.5rem 1.3rem;
+
+// BTN LARGE
+$padding-btn-large: 1.2rem 2.5rem;
+
+
+// btn-secondary
+
+$color-btn-secondary: $color-text;
+$background-btn-secondary: none;
+
+$color-btn-secondary-hover: $color-1;
+$border-btn-secondary-hover: 3px solid $color-1;
+
+// btn-secondary-SMALL
+$padding-btn-small-light: 0.5rem 1.3rem;
+
+// btn-secondary-LARGE
+$padding-btn-large-light: 1.2rem 2.5rem;
+
+// BTN-FIT
+$display-btn-fit: block;
+$text-align-btn-fit: center;
+
+// BTN ICON
+$margin-right-btn-icon: .3rem;
+$margin-right-btn-secondary-icon: .3rem;
+
+// BTN DISABLED
+$opacity-btn-disabled: 0.5;
+$opacity-btn-secondary-disabled: 0.5;
+
+// -------------------------------------------------------------------
+// BUTTON CODE
+// -------------------------------------------------------------------
+.btn {
+  display: $display-btn;
+  font-size: $font-size-btn;
+  font-weight: $font-weight-btn;
+  font-family: $font-family-btn;
+  letter-spacing: $letter-spacing-btn;
+  text-decoration: $text-decoration-btn;
+  padding: $padding-btn;
+  text-transform: $text-transform-btn;
+  border: $border-btn;
+  margin-right: $margin-right-btn;
+  margin-bottom: $margin-bottom-btn;
+
+  &.primary{
+    color: $color-btn;
+    background: $background-btn;
+    &:hover {
+      color: $color-btn-hover;
+      background: $background-btn-hover;
+      border: $border-btn-hover;
+    }
+  }
+  
+  &.secondary {
+    color: $color-btn-secondary;
+    background: $background-btn-secondary;
+  
+    &:hover {
+      color: $color-btn-secondary-hover;
+      border:$border-btn-secondary-hover;
+    }
+  }
+
+  i{
+    margin-right: $margin-right-btn-icon;
+  }
+
+  &.disabled{
+    opacity: $opacity-btn-disabled;
+    
+  }
+
+
+
+  &.small {
+    padding: $padding-btn-small;
+  }
+
+  &.large{
+    padding: $padding-btn-large;
+  }
+
+  &.fit{
+    display: $display-btn-fit;
+    text-align: $text-align-btn-fit;
+  }
+
+  
+}

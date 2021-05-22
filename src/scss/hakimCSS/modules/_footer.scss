@@ -1,0 +1,214 @@
+  //-------------------------------------------
+      // footer pour telephone/tablette
+      //--------------------------------------
+
+      @media screen and (max-width:978px){
+
+      .footer{
+      
+      background-color:  #f5f5f5;
+      margin:auto;
+      width: 100%;
+    }
+    
+    .container-left{
+         width:100%
+    }
+    .form{
+        display: flex;
+        flex-direction:column;
+        padding: 3em;
+    
+            &_label {
+                color: $color-text;
+                text-transform: uppercase;
+                font-weight: $font-weight-default;
+                font-size: 0.7em;
+              }
+            &_input_name {
+                display: block;
+                width: 100%;
+                height: 40px;
+                margin: 1em 0 2em 0;
+                border: 1.5px solid #e4e3e3;
+                background: $color-2;
+              }
+            &_input_email {
+                display: block;
+                width: 100%;
+                height: 40px;
+                margin: 1em 0 2em 0;
+                border: 1.5px solid #e4e3e3;
+                background: $color-2;
+              }
+            &_input_msg {
+                display: block;
+                width: 100%;
+                height: 120px;
+                margin: 1em 0 2em 0;
+                border: 1.5px solid #e4e3e3;
+                background: $color-2;
+              }
+            &_btn {
+                width: 40%;
+                height: 40px;
+                color: $color-3;
+                background: $color-2;
+                border: 1.5px solid $color-text;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 0.7em;
+              }
+            &_btn:hover {
+              color: $link-hover-color;
+              border-color:$link-hover-border-color;            
+              }
+          }
+          .container_right {
+            width: 100%;
+            border-left: 1px solid #e4e3e3;
+            .content {
+              padding: 3em;
+              height: 25%;
+              border-bottom: 1px solid #e4e3e3;
+              position: relative;
+              &_title {
+                display: inline-block;
+                margin-right: 3em;
+                color: $color-3;
+                padding-top: 22px;
+                font-weight: $font-weight-default;
+                font-size: 0.7em;
+              }
+              &_txt {
+                display: inline-block;
+                position: absolute;
+                padding:14px 0 0 20%;
+                color: $color-3;
+                
+              }
+              &_number{
+                display:inline-block;
+                position:absolute;
+                padding:0px 0 0 20%;
+                color: $color-3;
+              }
+              &_email{
+                display:inline-block;
+                position:absolute;
+                padding:0px 0 0 20%;
+                color: $color-3;
+    
+              }
+              .container_icon {
+                display: inline-block;
+                padding:0px 0 0 20%;
+              }
+            }
+          }
+        }
+  
+        @media screen and (min-width:977px){
+        .footer{
+    display:flex;
+    background-color:  #f5f5f5;
+    margin:auto;
+    width: 100%;
+}
+
+.container-left{
+     width:50%
+}
+.form{
+    display: flex;
+        flex-direction:column;
+        padding: 3em;
+
+        &_label {
+            color: $color-text;
+            text-transform: uppercase;
+            font-weight: $font-weight-default;
+            font-size: 0.7em;
+          }
+        &_input_name {
+            display: block;
+            width: 100%;
+            height: 40px;
+            margin: 1em 0 2em 0;
+            border: 1.5px solid #e4e3e3;
+            background: $color-2;
+          }
+        &_input_email {
+            display: block;
+            width: 100%;
+            height: 40px;
+            margin: 1em 0 2em 0;
+            border: 1.5px solid #e4e3e3;
+            background: $color-2;
+          }
+        &_input_msg {
+            display: block;
+            width: 100%;
+            height: 120px;
+            margin: 1em 0 2em 0;
+            border: 1.5px solid #e4e3e3;
+            background: $color-2;
+          }
+        &_btn {
+            width: 40%;
+            height: 40px;
+            color: $color-3;
+            background: $color-2;
+            border: 1.5px solid $color-text;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 0.7em;
+          }
+        &_btn:hover {
+          color: $link-hover-color;
+          border-color:$link-hover-border-color;            
+          }
+      }
+      .container_right {
+        width: 50%;
+        border-left: 1px solid #e4e3e3;
+        .content {
+          padding: 3em;
+          height: 25%;
+          border-bottom: 1px solid #e4e3e3;
+          position: relative;
+          &_title {
+            display: inline-block;
+            margin-right: 3em;
+            color: $color-3;
+            padding-top: 22px;
+            font-weight: $font-weight-default;
+            font-size: 0.7em;
+          }
+          &_txt {
+            display: inline-block;
+            position: absolute;
+            padding:14px 0 0 0;
+            color: $color-3;
+            
+          }
+          &_number{
+            display:inline-block;
+            position:absolute;
+            padding:0px;
+            color: $color-3;
+          }
+          &_email{
+            display:inline-block;
+            position:absolute;
+            padding:0px;
+            color: $color-3;
+
+          }
+          .container_icon {
+            display: inline-block;
+          }
+        }
+      }
+    }
+    

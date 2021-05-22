@@ -1,0 +1,149 @@
+@import './hakimCSS/index.scss';
+
+
+body{
+    background:#212931;
+    margin:50px;
+}
+
+.main-content{
+    
+    background:#fff;
+    padding:3em;
+    border-radius: $border-radius-default; 
+    box-sizing: inherit;
+   
+}
+.main-header{
+    background:#fff;
+    box-sizing: inherit;
+    text-align: center;
+
+}
+
+.ul-padding{
+    padding: 0 0 0 15px ;
+}
+.ul-padding-icon{
+    padding: 0 0 0 0;
+    margin-bottom: 30px;
+}
+
+.image-fit{
+    width:100%;
+}
+.image-float-left{
+    float:left;
+    margin: 0 1rem 1rem 0; 
+}
+.image-float-right{
+    float:right;
+    margin:1rem 0 0 1rem;
+}
+img{
+    max-width: 100%;
+    
+}
+
+// barre de navigation 
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:60px;
+    padding:0;
+    color:$color-text;
+    background-color:$color-text;
+    opacity: 90%;
+      
+}
+.navbar-links{
+    display: flex;
+    padding-left:0;
+    list-style: none;
+
+}
+.navbar-links a{
+    padding:1.48em;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.navbar i.fab{
+    color: #fff;
+}
+
+.navbar ul.navbar-links li a.active{
+    background-color:#fff;
+    color:$color-text;
+}
+.intensiv-white h1{
+    color:#fff;
+    border:2px solid #fff;
+}
+
+// ARTICLE //
+.blockquote_article{
+    text-align:center;
+
+}
+.article_title{
+    text-align:center;
+}
+.article_title:hover{
+    color:$color-1;
+}
+.article_text{
+    text-align:center;
+}
+.article_container_img{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.article_img{
+    width:100%;
+    height:100%;
+    transition:transform .1s;
+} 
+
+.article_img:hover{
+    transform:scale(1.15);
+}
+.main-header-article{
+    background:#fff;
+    box-sizing: inherit;
+    text-align: center;
+    padding:3em;
+}
+.container_article{
+    background:#fff;
+    box-sizing:inherit;
+    text-align: center;
+    padding:3em;
+    margin:auto;
+}
+.card_container_img{
+    margin:2em auto;
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.card_img{
+    width:100%;
+    height:100%;
+    transition:transform .1s;
+}
+.center{
+    border:1px solid #d5d5d5;
+    padding:3em;
+}
+.header_article{
+    background:#fff;
+    box-sizing: inherit;
+    text-align: center;
+}
